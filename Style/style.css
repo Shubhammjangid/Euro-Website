@@ -1,0 +1,234 @@
+.nav
+{
+    padding:5px;
+}
+
+.logo {
+    width: 135px;
+    height: 50px;
+    background-color: whitesmoke;
+  }
+.nav-item
+{
+    color:blue;
+    font-size: larger;
+}
+.nav-link .special
+{
+   color: #e5cf30;
+}
+.vision
+{
+    
+      
+        font-size: 5px;
+        font-weight: bold;
+        font-family: ProximaNova;
+        letter-spacing: -0.41px;
+        text-align: center;
+        color:#143f74;
+      
+}
+.Fact{
+    
+   
+    font-family: ProximaNova;
+    font-size: 8px;
+    font-weight: bold;
+    text-align: center;
+    color:#143f74;
+}
+.boximg
+{
+  display: flex;
+  margin:8px
+}
+.Box1 img
+{
+ 
+  display: flex;
+  justify-content: center;
+  width: 43px;
+  height: 43px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.container
+{
+  width: 290px;
+  height: 166px;
+}
+
+.card{
+  width: 290px;
+  height: 166px;
+}
+
+
+
+.Deliveries-Every-Min
+{
+  width: 163px;
+  height: 19px;
+  margin: 0.7px 0 0;
+  padding:5px;
+  font-family: ProximaNova;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333;
+}
+
+.third
+{
+  width: 290px;
+  height: 166px;
+  justify-content: center;
+}
+.Main
+{
+  display:flex;
+  justify-content: center;
+  
+}
+.Box1
+{
+  width: 290px;
+  height: 166px;
+  margin: 0 0 9.7px 16.7px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  background-color: var(--white);
+}
+.Box
+{
+  width: 290px;
+  height: 166px;
+  margin: 0 0 9.7px 16.7px;
+  background-color:white;
+  flex-direction: row;
+}
+
+.B1
+{
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  margin: 8.4px 0 17.7px;
+  font-family: ProximaNova;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.23;
+  letter-spacing: -0.41px;
+  text-align: center;
+  color: #212121;
+ 
+}
+
+.B2
+{
+  display: flex;
+  justify-content: center;
+  height: 19px;
+  font-family: ProximaNova;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  color: #333;
+}
+
+/* page 2 */
+
+.b-example-divider {
+  margin-top:40px;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+.footer
+{
+  background-color: #42b9f5;
+  padding-top:30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.topic
+{
+  color:#e5cf30;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+
+
+
+/* Media quries */
+
+@media screen and (max-width: 776px) {
+  .Main {
+    flex:100%;
+    flex-wrap: wrap;
+  }
+  .Box1
+  {
+    width:100%;
+  }
+  .footer
+  {
+    flex:100%;
+    flex-wrap: wrap;
+  }
+
+
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+ 
+.attitude
+{
+  padding:0 10px;
+}
+.UK
+{
+  padding:0 10px;
+}
+}
+
+@media screen and (max-width: 980px)
+{
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.attitude
+{
+  padding:0 10px;
+}
+}
